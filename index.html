@@ -12,3 +12,26 @@
   <!-- The following link tag is used to link to an external stylesheet for the Awesomplete autocomplete library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.5/awesomplete.min.css" />
 </head>
+<body>
+  <!-- The container div holds all the elements of the page -->
+  <div class="container">
+    <!-- The h1 tag displays the main heading of the page -->
+    <h1>Weather Dashboard</h1>
+    <!-- The search-box div contains the input field and search button for the user to search for a city -->
+    <div class="search-box">
+      <!-- The input field where the user can type in a city name -->
+      <input type="text" id="city-input" placeholder="Enter city" class="awesomplete">
+      <!-- The button to initiate the search -->
+      <button id="search-btn">Search</button>
+    </div>
+    <!-- The current-weather div will be used to display the current weather conditions for the selected city -->
+    <div id="current-weather"></div>
+    <!-- The forecast div will be used to display the forecasted weather for the selected city -->
+    <div id="forecast"></div>
+  </div>
+  <!-- The following script tag is used to link to an external JavaScript file for the Awesomplete autocomplete library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.5/awesomplete.min.js"></script>
+  <!-- The script tag is used to link to an external JavaScript file for the custom script for the weather dashboard -->
+  <script src="script.js"></script>
+</body>
+</html>
