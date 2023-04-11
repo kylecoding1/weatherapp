@@ -6,6 +6,8 @@ The weatherapp is a web application that allows users to search for the current 
 
 ##Usage
 
+HTML, CSS, Javascript, Server-sideAPIs
+
 The weatherapp can be used to check the weather conditions for any city around the world. Users simply need to enter the city name in the search field and click on the search button to get the current weather conditions and forecast for the city. The application is easy to use and provides accurate weather information in real-time.
 
 ##Installation
